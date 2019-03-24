@@ -50,7 +50,7 @@ def main():
     number_of_messages = info['messagesTotal']
 
     # This API calls gives us the user's mail details
-    results = service.users().messages().list(userId='me', maxResults=1).execute()
+    results = service.users().messages().list(userId='me', maxResults=number_of_messages).execute()
     messages = results.get('messages', [])
 
     list_of_subjects = []
