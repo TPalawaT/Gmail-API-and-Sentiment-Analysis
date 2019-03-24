@@ -7,13 +7,15 @@ This uses Gmail API call to return user's messages and then uses python NLTK lib
 ## Requirements Requirements to run the program are:- 
 **Python 3.x** </br>
 **Pickle** This comes installed with python package. </br>
-**Gmail API call modules** pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib </br>
-**nltk**  1. pip install -U nltk </br>
-          2. Open python interpreter </br>
-          3. Type nltk.download() </br>
-          4. From the dialog box, select choices and download </br></br>
+**Gmail API call modules** pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib </br></br>
+**nltk**  </br>
+1. pip install -U nltk </br>
+2. Open python interpreter </br>
+3. Type nltk.download() </br>
+4. From the dialog box, select choices and download </br></br>
           
-**Gmail API** 1. Go to https://console.developers.google.com/ </br>
+**Gmail API** </br>
+1. Go to https://console.developers.google.com/ </br>
 2. In the top left corner of the page, click on "Select a project".</br>
 3. In the dialog box that opens up, click on "New project" in the top right corner.</br>
 4. Type your project name, and click select.</br>
