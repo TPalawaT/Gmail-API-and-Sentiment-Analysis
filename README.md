@@ -1,8 +1,8 @@
 # Gmail-API-and-Sentiment-Analysis
-Send a request to Gmail API and shows subject of first five messages which might be congratulating the receiver.
+Sends a request to Gmail API and shows subject of first five messages which might be congratulating the receiver.
 
 ## Overview
-This uses Gmail API call to return user's messages and then uses python NLTK library for text parsing and returns the subject of the first five mail which satisfy the condition.
+This uses Gmail API call to return user's messages and then uses python NLTK library for text parsing and returns the subject of the first five E-mails which satisfy the condition.
 
 ## Requirements Requirements to run the program are:- 
 **Python 3.x** </br>
